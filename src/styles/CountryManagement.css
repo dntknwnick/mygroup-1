@@ -1,0 +1,160 @@
+/* Country Management Styles */
+.country-management {
+  padding: 20px;
+}
+
+.country-management .card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: none;
+}
+
+.country-management .card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-bottom: none;
+}
+
+.country-management .table {
+  margin-bottom: 0;
+}
+
+.country-management .table th {
+  background-color: #f8f9fa;
+  border-top: none;
+  font-weight: 600;
+  color: #495057;
+  font-size: 0.875rem;
+}
+
+.country-management .table td {
+  vertical-align: middle;
+  font-size: 0.875rem;
+}
+
+.country-management .btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.country-management .flag-image {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+  border: 1px solid #dee2e6;
+  border-radius: 2px;
+}
+
+.country-management .flag-preview {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.country-management .form-control-sm {
+  font-size: 0.75rem;
+}
+
+.country-management .modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-bottom: none;
+}
+
+.country-management .modal-header .btn-close {
+  filter: invert(1);
+}
+
+.country-management .required {
+  color: #dc3545;
+}
+
+.country-management .status-badge {
+  font-size: 0.75rem;
+}
+
+.country-management .action-buttons {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.country-management .loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.country-management .empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #6c757d;
+}
+
+.country-management .empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .country-management .table-responsive {
+    font-size: 0.75rem;
+  }
+  
+  .country-management .btn-sm {
+    padding: 0.125rem 0.25rem;
+    font-size: 0.625rem;
+  }
+  
+  .country-management .flag-image {
+    width: 20px;
+    height: 15px;
+  }
+}
+
+/* Form styling */
+.country-management .form-label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+.country-management .form-control:focus,
+.country-management .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.country-management .invalid-feedback {
+  display: block;
+}
+
+/* Alert styling */
+.country-management .alert {
+  border: none;
+  border-radius: 8px;
+}
+
+.country-management .alert-success {
+  background-color: #d1edff;
+  color: #0c5460;
+}
+
+.country-management .alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Switch styling */
+.country-management .form-check-input:checked {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.country-management .form-check-input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
